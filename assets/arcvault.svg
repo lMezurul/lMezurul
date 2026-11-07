@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="168" viewBox="0 0 620 168" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="620" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B0B0D"/>
+      <stop offset="1" stop-color="#120A0C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(90 40) rotate(90) scale(120 260)">
+      <stop offset="0" stop-color="#E5484D" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#E5484D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="620" height="168" rx="14" fill="url(#bg)"/>
+  <rect width="620" height="168" rx="14" fill="url(#glow)"/>
+  <rect x="0.75" y="0.75" width="618.5" height="166.5" rx="13.25" stroke="#2A1416" stroke-width="1.5"/>
+
+  <g transform="translate(24 26)">
+    <path d="M2 4c0-2.2 1.8-4 4-4h6l6 6v12c0 2.2-1.8 4-4 4H6c-2.2 0-4-1.8-4-4V4z" fill="#1A0C0E" stroke="#7F1D1D" stroke-width="1.2"/>
+    <path d="M12 0v6h6" stroke="#7F1D1D" stroke-width="1.2"/>
+  </g>
+  <text x="52" y="42" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="21" font-weight="700" fill="#F5F5F5">ArcVault</text>
+  <rect x="540" y="24" width="56" height="20" rx="10" fill="#160C0E" stroke="#4A1A1E"/>
+  <text x="568" y="38" text-anchor="middle" font-family="Cascadia Code, Consolas, monospace" font-size="9.5" fill="#FF8080">PUBLIC</text>
+
+  <text x="24" y="76" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="13" fill="#A1A1AA">Encrypted virtual filesystem for Windows.</text>
+  <text x="24" y="96" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="13" fill="#A1A1AA">AES-256-XTS container mounted through WinFsp, readable by one trusted process.</text>
+
+  <g font-family="Cascadia Code, Consolas, monospace" font-size="10">
+    <rect x="24" y="118" width="52" height="22" rx="11" fill="#160C0E" stroke="#4A1A1E"/>
+    <text x="50" y="133" text-anchor="middle" fill="#FF8080">C++ 17</text>
+    <rect x="84" y="118" width="66" height="22" rx="11" fill="#160C0E" stroke="#4A1A1E"/>
+    <text x="117" y="133" text-anchor="middle" fill="#FF8080">WinFsp</text>
+    <rect x="158" y="118" width="46" height="22" rx="11" fill="#160C0E" stroke="#4A1A1E"/>
+    <text x="181" y="133" text-anchor="middle" fill="#FF8080">MIT</text>
+  </g>
+
+  <text x="596" y="133" text-anchor="end" font-family="Cascadia Code, Consolas, monospace" font-size="10" fill="#52525B">github.com/lMezurul/ArcVault</text>
+</svg>

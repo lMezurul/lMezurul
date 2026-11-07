@@ -39,14 +39,8 @@
 
 <p align="center">
   <a href="https://github.com/lMezurul/ArcVault">
-    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=lMezurul&repo=ArcVault&theme=radical&hide_border=true" alt="ArcVault repository card" />
+    <img src="assets/arcvault.svg" alt="ArcVault — encrypted virtual filesystem for Windows" width="72%">
   </a>
-</p>
-
-<p align="center">
-  <b>ArcVault</b> — where the web ends and the low level begins.<br/>
-  An encrypted virtual filesystem for Windows: AES-256-XTS container mounted through WinFsp,
-  readable by exactly one trusted process.
 </p>
 
 <p align="center">
