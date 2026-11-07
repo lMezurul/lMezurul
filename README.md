@@ -11,6 +11,11 @@
   <img src="assets/terminal.svg" alt="vatican@dev — whoami, philosophy and writing" width="66%">
 </div>
 
+## Now
+
+- shipping **ArcVault v1.0** — encrypted virtual filesystem for Windows
+- writing about systems, APIs and the layers under the interface
+
 ## Stack
 
 <div align="center">
