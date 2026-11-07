@@ -1,14 +1,14 @@
 <div align="center">
-  <img src="assets/header.svg" alt="Vatican — full-stack developer and frontend architect" width="100%">
+  <img src="assets/header.svg" alt="Vatican — full-stack developer and frontend architect" width="72%">
 </div>
 
 <p align="center">
-  <a href="https://vatican.cad.rest/"><img src="https://img.shields.io/badge/website-vatican.cad.rest-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="website"></a>
-  <a href="https://vatican-blog.cvv.life/"><img src="https://img.shields.io/badge/writing-teletype-FF7A7A?style=for-the-badge&logo=rss&logoColor=white" alt="writing"></a>
+  <a href="https://vatican.cad.rest/"><img src="https://img.shields.io/badge/website-vatican.cad.rest-B91C1C?style=for-the-badge&labelColor=111111&logo=googlechrome&logoColor=white" alt="website"></a>
+  <a href="https://vatican-blog.cvv.life/"><img src="https://img.shields.io/badge/writing-teletype-B91C1C?style=for-the-badge&labelColor=111111&logo=rss&logoColor=white" alt="writing"></a>
 </p>
 
 <div align="center">
-  <img src="assets/terminal.svg" alt="vatican@dev — whoami, philosophy and writing" width="100%">
+  <img src="assets/terminal.svg" alt="vatican@dev — whoami, philosophy and writing" width="66%">
 </div>
 
 ## Stack
@@ -39,7 +39,7 @@
 
 <p align="center">
   <a href="https://github.com/lMezurul/ArcVault">
-    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=lMezurul&repo=ArcVault&theme=github_dark&hide_border=true" alt="ArcVault repository card" />
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=lMezurul&repo=ArcVault&theme=radical&hide_border=true" alt="ArcVault repository card" />
   </a>
 </p>
 
@@ -50,7 +50,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/lMezurul/ArcVault"><img src="https://img.shields.io/badge/ArcVault-source-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="source"></a>
-  <img src="https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++17">
-  <img src="https://img.shields.io/badge/WinFsp-2.x-4B8BBE?style=for-the-badge" alt="WinFsp">
+  <a href="https://github.com/lMezurul/ArcVault"><img src="https://img.shields.io/badge/ArcVault-source-B91C1C?style=for-the-badge&labelColor=111111&logo=github&logoColor=white" alt="source"></a>
+  <img src="https://img.shields.io/badge/C%2B%2B-17-B91C1C?style=for-the-badge&labelColor=111111&logo=cplusplus&logoColor=white" alt="C++17">
+  <img src="https://img.shields.io/badge/WinFsp-2.x-B91C1C?style=for-the-badge&labelColor=111111" alt="WinFsp">
 </p>

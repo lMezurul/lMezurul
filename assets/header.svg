@@ -1,58 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220" fill="none">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0B1220"/>
-      <stop offset="0.6" stop-color="#0D1728"/>
-      <stop offset="1" stop-color="#0A1A2B"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#08080A"/>
+      <stop offset="0.6" stop-color="#0D090B"/>
+      <stop offset="1" stop-color="#140A0C"/>
     </linearGradient>
-    <linearGradient id="name" x1="80" y1="110" x2="520" y2="190" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#F0F6FC"/>
-      <stop offset="0.7" stop-color="#9BE9FF"/>
-      <stop offset="1" stop-color="#3FB950"/>
+    <linearGradient id="name" x1="64" y1="70" x2="420" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.65" stop-color="#FFC9C9"/>
+      <stop offset="1" stop-color="#FF5C5C"/>
     </linearGradient>
-    <linearGradient id="hero" x1="790" y1="130" x2="1090" y2="230" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#123A5A" stop-opacity="0.85"/>
-      <stop offset="1" stop-color="#0E2A1B" stop-opacity="0.85"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 170) rotate(90) scale(220 380)">
-      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.14"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(150 120) rotate(90) scale(200 340)">
+      <stop offset="0" stop-color="#E5484D" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#E5484D" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" stroke="#7DD3FC" stroke-opacity="0.05"/>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="#FF5C5C" stroke-opacity="0.05"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="20" fill="url(#grid)"/>
-  <rect width="1200" height="300" rx="20" fill="url(#glow)"/>
-  <rect x="0.75" y="0.75" width="1198.5" height="298.5" rx="19.25" stroke="#1F2A3D" stroke-width="1.5"/>
+  <rect width="1000" height="220" rx="18" fill="url(#bg)"/>
+  <rect width="1000" height="220" rx="18" fill="url(#grid)"/>
+  <rect width="1000" height="220" rx="18" fill="url(#glow)"/>
+  <rect x="0.75" y="0.75" width="998.5" height="218.5" rx="17.25" stroke="#2A1416" stroke-width="1.5"/>
 
-  <text x="80" y="150" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="92" font-weight="700" letter-spacing="-2" fill="url(#name)">Vatican</text>
-  <text x="84" y="200" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="23" fill="#8BA3C7">full-stack developer · frontend architect</text>
+  <text x="64" y="108" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="72" font-weight="700" letter-spacing="-1.5" fill="url(#name)">Vatican</text>
+  <text x="66" y="144" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="19" fill="#A1A1AA">full-stack developer · frontend architect</text>
+  <rect x="66" y="160" width="52" height="3" rx="1.5" fill="#E5484D"/>
 
-  <!-- browser card -->
-  <g transform="translate(762 68)">
-    <rect width="360" height="168" rx="12" fill="#0C1524" stroke="#22304A" stroke-width="1.5"/>
-    <path d="M0 36h360" stroke="#22304A"/>
-    <circle cx="20" cy="18" r="5" fill="#FF5F57"/>
-    <circle cx="38" cy="18" r="5" fill="#FEBC2E"/>
-    <circle cx="56" cy="18" r="5" fill="#28C840"/>
-    <rect x="78" y="9" width="180" height="18" rx="9" fill="#101C2E" stroke="#1E2C42"/>
-    <text x="92" y="22" font-family="Cascadia Code, Consolas, monospace" font-size="10.5" fill="#7D93B2">vatican.cad.rest</text>
-
-    <rect x="18" y="54" width="324" height="94" rx="10" fill="url(#hero)"/>
-    <text x="38" y="94" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="28" font-weight="700" fill="#F0F6FC">Vatican</text>
-    <text x="38" y="118" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="12" fill="#B6C7DD">interfaces, systems, and the layers between</text>
-    <g font-family="Cascadia Code, Consolas, monospace" font-size="10">
-      <rect x="38" y="128" width="52" height="16" rx="8" fill="#0B1A2A" stroke="#2B4B6B"/>
-      <text x="64" y="139" text-anchor="middle" fill="#7DD3FC">react</text>
-      <rect x="96" y="128" width="60" height="16" rx="8" fill="#0B1A2A" stroke="#2B4B6B"/>
-      <text x="126" y="139" text-anchor="middle" fill="#7DD3FC">next.js</text>
-      <rect x="162" y="128" width="40" height="16" rx="8" fill="#0B1A2A" stroke="#2B4B6B"/>
-      <text x="182" y="139" text-anchor="middle" fill="#7DD3FC">ts</text>
-    </g>
+  <g text-anchor="end" font-family="Cascadia Code, Consolas, monospace" font-size="11" fill="#52525B">
+    <text x="936" y="96">vatican.cad.rest</text>
+    <text x="936" y="118">github.com/lMezurul</text>
   </g>
-
-  <text x="1122" y="272" text-anchor="end" font-family="Cascadia Code, Consolas, monospace" font-size="12" fill="#3F5270">github.com/lMezurul</text>
 </svg>
