@@ -33,7 +33,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/lMezurul/ArcVault"><img src="https://img.shields.io/badge/source-code-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="source"></a>
+  <a href="https://github.com/lMezurul/ArcVault"><img src="https://img.shields.io/badge/ArcVault-source-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="source"></a>
   <img src="https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++17">
   <img src="https://img.shields.io/badge/WinFsp-2.x-4B8BBE?style=for-the-badge" alt="WinFsp">
 </p>
