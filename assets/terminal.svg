@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="536" viewBox="0 0 780 536" fill="none">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="780" y2="536" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0B1119"/><stop offset="1" stop-color="#090D14"/></linearGradient></defs>
+  <rect width="780" height="536" rx="16" fill="url(#bg)"/>
+  <rect x="0.75" y="0.75" width="778.5" height="534.5" rx="15.25" stroke="#21262D" stroke-width="1.5"/>
+  <path d="M0 48h780" stroke="#1B222C"/>
+  <circle cx="26" cy="24" r="6" fill="#FF5F57"/><circle cx="48" cy="24" r="6" fill="#FEBC2E"/><circle cx="70" cy="24" r="6" fill="#28C840"/>
+  <text x="96" y="29" font-family="Cascadia Code, Consolas, monospace" font-size="12" fill="#6E7681">vatican@dev — zsh</text>
+  <text x="30" y="78" xml:space="preserve" font-family="Cascadia Code, Consolas, monospace" font-size="15"><tspan fill="#3FB950">┌──(vatican㉿dev)-[~]</tspan></text>
+  <text x="30" y="105" xml:space="preserve" font-family="Cascadia Code, Consolas, monospace" font-size="15"><tspan fill="#3FB950">└─$ </tspan><tspan fill="#E6EDF3">whoami</tspan></text>
+  <text x="30" y="132" xml:space="preserve" font-family="Cascadia Code, Consolas, monospace" font-size="15"><tspan fill="#C9D1D9">   Vatican — full-stack developer, frontend architect</tspan></text>
+  <text x="30" y="159" xml:space="preserve" font-family="Cascadia Code, Consolas, monospace" font-size="15"><tspan fill="#8B98A9">   building for the web, digging under it</tspan></text>
+  <text x="30" y="213" xml:space="preserve" font-family="Cascadia Code, Consolas, monospace" font-size="15"><tspan fill="#3FB950">┌──(vatican㉿dev)-[~]</tspan></text>
+  <text x="30" y="240" xml:space="preserve" font-family="Cascadia Code, Consolas, monospace" font-size="15"><tspan fill="#3FB950">└─$ </tspan><tspan fill="#E6EDF3">cat philosophy.txt</tspan></text>
+  <text x="30" y="267" xml:space="preserve" font-family="Cascadia Code, Consolas, monospace" font-size="15"><tspan fill="#C9D1D9">   every interface is a promise;</tspan></text>
+  <text x="30" y="294" xml:space="preserve" font-family="Cascadia Code, Consolas, monospace" font-size="15"><tspan fill="#C9D1D9">   the system behind it is the truth</tspan></text>
+  <text x="30" y="348" xml:space="preserve" font-family="Cascadia Code, Consolas, monospace" font-size="15"><tspan fill="#3FB950">┌──(vatican㉿dev)-[~]</tspan></text>
+  <text x="30" y="375" xml:space="preserve" font-family="Cascadia Code, Consolas, monospace" font-size="15"><tspan fill="#3FB950">└─$ </tspan><tspan fill="#E6EDF3">ls ~/writing</tspan></text>
+  <text x="30" y="402" xml:space="preserve" font-family="Cascadia Code, Consolas, monospace" font-size="15"><tspan fill="#79C0FF">   reality_reversal.md</tspan><tspan fill="#000">   </tspan><tspan fill="#79C0FF">dark_side_of_api.md</tspan></text>
+  <text x="30" y="456" xml:space="preserve" font-family="Cascadia Code, Consolas, monospace" font-size="15"><tspan fill="#3FB950">┌──(vatican㉿dev)-[~]</tspan></text>
+  <text x="30" y="483" xml:space="preserve" font-family="Cascadia Code, Consolas, monospace" font-size="15"><tspan fill="#3FB950">└─$ </tspan><tspan fill="#E6EDF3">▌</tspan></text>
+</svg>

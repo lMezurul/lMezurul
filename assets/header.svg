@@ -5,10 +5,14 @@
       <stop offset="0.6" stop-color="#0D1728"/>
       <stop offset="1" stop-color="#0A1A2B"/>
     </linearGradient>
-    <linearGradient id="name" x1="80" y1="120" x2="520" y2="190" gradientUnits="userSpaceOnUse">
+    <linearGradient id="name" x1="80" y1="110" x2="520" y2="190" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#F0F6FC"/>
       <stop offset="0.7" stop-color="#9BE9FF"/>
       <stop offset="1" stop-color="#3FB950"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="790" y1="130" x2="1090" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#123A5A" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#0E2A1B" stop-opacity="0.85"/>
     </linearGradient>
     <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 170) rotate(90) scale(220 380)">
       <stop offset="0" stop-color="#22D3EE" stop-opacity="0.14"/>
@@ -24,31 +28,31 @@
   <rect width="1200" height="300" rx="20" fill="url(#glow)"/>
   <rect x="0.75" y="0.75" width="1198.5" height="298.5" rx="19.25" stroke="#1F2A3D" stroke-width="1.5"/>
 
-  <text x="80" y="150" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="92" font-weight="700" letter-spacing="-2" fill="url(#name)">Mezuru</text>
-  <text x="84" y="200" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="23" fill="#8BA3C7">Windows · C++ · systems &amp; tooling</text>
+  <text x="80" y="150" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="92" font-weight="700" letter-spacing="-2" fill="url(#name)">Vatican</text>
+  <text x="84" y="200" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="23" fill="#8BA3C7">full-stack developer · frontend architect</text>
 
-  <g font-family="Cascadia Code, Consolas, monospace" font-size="13" fill="#7D93B2">
-    <text x="84" y="242">C:\&gt; whoami</text>
-    <text x="190" y="242" fill="#E6EDF3">mezuru</text>
-    <text x="84" y="266">C:\&gt; focus</text>
-    <text x="190" y="266" fill="#9BE9FF">file systems · crypto · tooling</text>
-  </g>
+  <!-- browser card -->
+  <g transform="translate(762 68)">
+    <rect width="360" height="168" rx="12" fill="#0C1524" stroke="#22304A" stroke-width="1.5"/>
+    <path d="M0 36h360" stroke="#22304A"/>
+    <circle cx="20" cy="18" r="5" fill="#FF5F57"/>
+    <circle cx="38" cy="18" r="5" fill="#FEBC2E"/>
+    <circle cx="56" cy="18" r="5" fill="#28C840"/>
+    <rect x="78" y="9" width="180" height="18" rx="9" fill="#101C2E" stroke="#1E2C42"/>
+    <text x="92" y="22" font-family="Cascadia Code, Consolas, monospace" font-size="10.5" fill="#7D93B2">vatican.cad.rest</text>
 
-  <g transform="translate(742 70)">
-    <rect width="382" height="160" rx="12" fill="#0C1524" stroke="#22304A" stroke-width="1.5"/>
-    <path d="M0 34h382" stroke="#22304A"/>
-    <circle cx="20" cy="17" r="5" fill="#FF5F57"/>
-    <circle cx="38" cy="17" r="5" fill="#FEBC2E"/>
-    <circle cx="56" cy="17" r="5" fill="#28C840"/>
-    <text x="360" y="22" text-anchor="end" font-family="Cascadia Code, Consolas, monospace" font-size="11" fill="#4E6484">PowerShell</text>
-    <g font-family="Cascadia Code, Consolas, monospace" font-size="13">
-      <text x="22" y="62" fill="#6E7681">PS&gt;</text>
-      <text x="58" y="62" fill="#E6EDF3">ArcVault</text>
-      <text x="22" y="88" fill="#7D8590">encrypted virtual filesystem</text>
-      <text x="22" y="114" fill="#7D8590">AES-256-XTS + WinFsp</text>
-      <text x="22" y="140" fill="#3FB950">read-only · pid-locked</text>
+    <rect x="18" y="54" width="324" height="94" rx="10" fill="url(#hero)"/>
+    <text x="38" y="94" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="28" font-weight="700" fill="#F0F6FC">Vatican</text>
+    <text x="38" y="118" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="12" fill="#B6C7DD">interfaces, systems, and the layers between</text>
+    <g font-family="Cascadia Code, Consolas, monospace" font-size="10">
+      <rect x="38" y="128" width="52" height="16" rx="8" fill="#0B1A2A" stroke="#2B4B6B"/>
+      <text x="64" y="139" text-anchor="middle" fill="#7DD3FC">react</text>
+      <rect x="96" y="128" width="60" height="16" rx="8" fill="#0B1A2A" stroke="#2B4B6B"/>
+      <text x="126" y="139" text-anchor="middle" fill="#7DD3FC">next.js</text>
+      <rect x="162" y="128" width="40" height="16" rx="8" fill="#0B1A2A" stroke="#2B4B6B"/>
+      <text x="182" y="139" text-anchor="middle" fill="#7DD3FC">ts</text>
     </g>
   </g>
 
-  <text x="1120" y="272" text-anchor="end" font-family="Cascadia Code, Consolas, monospace" font-size="12" fill="#3F5270">github.com/lMezurul</text>
+  <text x="1122" y="272" text-anchor="end" font-family="Cascadia Code, Consolas, monospace" font-size="12" fill="#3F5270">github.com/lMezurul</text>
 </svg>
