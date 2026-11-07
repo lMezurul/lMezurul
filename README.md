@@ -14,6 +14,7 @@
 ## Now
 
 - shipping **ArcVault v1.0** — encrypted virtual filesystem for Windows
+- building **apirecon** — see the API behind the page
 - writing about systems, APIs and the layers under the interface
 
 ## Stack
@@ -40,7 +41,7 @@
 - **[Reality Reversal](https://vatican-blog.cvv.life/Reality_Reversal)** — a manifesto on surfaces and layers: the interface is what a system shows you, never what it is. Breaking the mechanics down is the only access that actually counts. *(in Russian)*
 - **[The Dark Side of API](https://vatican-blog.cvv.life/dark_side_API)** — a long field guide to pulling data out of web apps: undocumented endpoints, GraphQL introspection, headless browsers, mobile traffic, rate limits, proxies and everything that stands between you and the response. *(in Russian)*
 
-## Featured project
+## Projects
 
 <p align="center">
   <a href="https://github.com/lMezurul/ArcVault">
@@ -52,4 +53,16 @@
   <a href="https://github.com/lMezurul/ArcVault"><img src="https://img.shields.io/badge/ArcVault-source-B91C1C?style=for-the-badge&labelColor=111111&logo=github&logoColor=white" alt="source"></a>
   <img src="https://img.shields.io/badge/C%2B%2B-17-B91C1C?style=for-the-badge&labelColor=111111&logo=cplusplus&logoColor=white" alt="C++17">
   <img src="https://img.shields.io/badge/WinFsp-2.x-B91C1C?style=for-the-badge&labelColor=111111" alt="WinFsp">
+</p>
+
+<p align="center">
+  <a href="https://github.com/lMezurul/apirecon">
+    <img src="assets/apirecon.svg" alt="apirecon — see the API behind the page" width="72%">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/lMezurul/apirecon"><img src="https://img.shields.io/badge/apirecon-source-B91C1C?style=for-the-badge&labelColor=111111&logo=github&logoColor=white" alt="source"></a>
+  <img src="https://img.shields.io/badge/Node-18%2B-B91C1C?style=for-the-badge&labelColor=111111&logo=nodedotjs&logoColor=white" alt="Node">
+  <img src="https://img.shields.io/badge/GraphQL-introspection-B91C1C?style=for-the-badge&labelColor=111111&logo=graphql&logoColor=white" alt="GraphQL">
 </p>

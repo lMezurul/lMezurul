@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="168" viewBox="0 0 620 168" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="620" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B0B0D"/>
+      <stop offset="1" stop-color="#120A0C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(90 40) rotate(90) scale(120 260)">
+      <stop offset="0" stop-color="#E5484D" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#E5484D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="620" height="168" rx="14" fill="url(#bg)"/>
+  <rect width="620" height="168" rx="14" fill="url(#glow)"/>
+  <rect x="0.75" y="0.75" width="618.5" height="166.5" rx="13.25" stroke="#2A1416" stroke-width="1.5"/>
+
+  <g transform="translate(26 26)" stroke="#E5484D" fill="none">
+    <circle cx="12" cy="12" r="11" stroke-opacity="0.3"/>
+    <circle cx="12" cy="12" r="6" stroke-opacity="0.5"/>
+    <path d="M12 12L20 6" stroke-opacity="0.9" stroke-width="1.4"/>
+    <circle cx="19" cy="6.5" r="2" fill="#FF5C5C" stroke="none"/>
+  </g>
+  <text x="56" y="42" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="21" font-weight="700" fill="#F5F5F5">apirecon</text>
+  <rect x="540" y="24" width="56" height="20" rx="10" fill="#160C0E" stroke="#4A1A1E"/>
+  <text x="568" y="38" text-anchor="middle" font-family="Cascadia Code, Consolas, monospace" font-size="9.5" fill="#FF8080">PUBLIC</text>
+
+  <text x="24" y="76" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="13" fill="#A1A1AA">See the API behind the page.</text>
+  <text x="24" y="96" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="13" fill="#A1A1AA">Network capture, GraphQL introspection and JS endpoint mining in one command.</text>
+
+  <g font-family="Cascadia Code, Consolas, monospace" font-size="10">
+    <rect x="24" y="118" width="46" height="22" rx="11" fill="#160C0E" stroke="#4A1A1E"/>
+    <text x="47" y="133" text-anchor="middle" fill="#FF8080">Node</text>
+    <rect x="78" y="118" width="66" height="22" rx="11" fill="#160C0E" stroke="#4A1A1E"/>
+    <text x="111" y="133" text-anchor="middle" fill="#FF8080">GraphQL</text>
+    <rect x="152" y="118" width="46" height="22" rx="11" fill="#160C0E" stroke="#4A1A1E"/>
+    <text x="175" y="133" text-anchor="middle" fill="#FF8080">MIT</text>
+  </g>
+
+  <text x="596" y="133" text-anchor="end" font-family="Cascadia Code, Consolas, monospace" font-size="10" fill="#52525B">github.com/lMezurul/apirecon</text>
+</svg>
